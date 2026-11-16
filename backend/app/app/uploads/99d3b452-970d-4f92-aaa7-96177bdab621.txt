@@ -1,0 +1,57 @@
+Page 1
+Machine Learning Interview Concepts (Without Deep Learning)
+1. Basics of Machine Learning
+- Definition: Teaching computers to learn patterns from data.
+- Types of ML:
+- Supervised (has labels)
+- Unsupervised (no labels)
+- Semi-supervised
+- Reinforcement learning
+2. Supervised Learning
+a. Regression
+- Predicts continuous values.
+- Examples: Linear Regression, Polynomial Regression, Ridge, Lasso.
+- Key Concepts: Cost function (MSE), Gradient Descent, Bias-Variance, Regularization.
+b. Classification
+- Predicts categories.
+- Examples: Logistic Regression, KNN, SVM, Naive Bayes, Decision Trees.
+- Key Concepts: Confusion matrix, Precision, Recall, F1-score, ROC-AUC, Cross-validation.
+3. Unsupervised Learning
+a. Clustering
+- Groups similar data points.
+- Examples: K-Means, Hierarchical, DBSCAN.
+b. Dimensionality Reduction
+- Reduces features while keeping structure.
+- Examples: PCA, t-SNE.
+
+Page 2
+c. Association Rule Mining
+- Finds co-occurrence patterns.
+- Examples: Apriori, FP-Growth.
+4. Feature Engineering
+- Handling missing values, Encoding, Scaling, Feature selection, Outlier removal.
+5. Model Evaluation
+- Train/test split, K-fold cross-validation, Overfitting vs Underfitting.
+- Hyperparameter tuning: Grid Search, Random Search.
+6. Important Algorithms (Non-Deep Learning)
+- Linear Models: Linear Regression, Logistic Regression
+- Distance-Based: KNN, K-Means
+- Probabilistic: Naive Bayes, GMM
+- Tree-Based: Decision Trees, Random Forest, XGBoost, LightGBM, CatBoost
+- Margin-Based: SVM
+7. Optimization Concepts
+- Gradient Descent, Learning rate, Cost functions, Regularization.
+8. Bias, Variance, and Error Types
+- Bias: Underfitting
+- Variance: Overfitting
+9. Data Preprocessing
+- Cleaning, handling duplicates, imputing missing values, scaling, outliers.
+10. Mathematics Required
+
+Page 3
+- Probability, Bayes theorem, Vectors, Matrices, Eigenvalues, Mean, Variance, Covariance.
+11. ML Workflow
+- Problem understanding, Data collection, Cleaning, EDA, Model building, Tuning, Evaluation,
+Deployment.
+12. ML System Concepts
+- Data drift, Model drift, Pipeline automation, Versioning, Monitoring.

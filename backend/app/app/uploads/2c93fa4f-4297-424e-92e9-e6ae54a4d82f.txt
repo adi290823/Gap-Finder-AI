@@ -1,0 +1,116 @@
+Page 1
+Lesson Plan 
+ 
+ 
+Product Name: Product designing with Edge devices: Programming with Embedded C 
+Session Name: 15. Lab: Reading Joystick Position With Arduino (Part I) 
+Grade: 8 
+Duration: 30 Mins 
+ 
+ 
+ 
+Session Overview: 
+In this session, students will have the confidence 
+and expertise to implement the Joystick 
+functionality such as reading the Joystick 
+position in terms of X and Y co-ordinates in 
+various directions. 
+Session Objectives: 
+ 
+Define the analogRead() and digitalRead() 
+function 
+ 
+Display the Joystick’s X and Y positions on 
+the serial monitor with different directions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+requisites: 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+
+ 
+ 
+ 
+Agenda: 
+ 
+ 
+ 
+ 
+switch values on the Serial Monitor.
+
+Page 2
+Teaching Guide 
+🏃♂️Warm up 
+⏱️Duration: 5 Mins 
+Activity: Direction Detect! 
+Do: Hold up a Joystick and ask students to imagine it as a remote for a drone or robot. Then 
+ask: 
+ 
+“If I push it right, which direction is that?” 
+ 
+“What would pushing it up or pressing it down do?” 
+Let them guess how the joystick might send signals for direction and control. This will spark 
+curiosity before reading actual values. 
+Make the point: By simply moving a joystick and guessing its direction, students can 
+relate real-life joystick use (like in gaming) to how it sends signals to control devices. This 
+sets the stage for understanding how the Arduino reads those movements using code. 
+🧠 Topic 1 
+⏱️Duration: 5 Mins 
+Activity: analogRead() and digitalRead() 
+ 
+Do: Teach both functions by comparing their differences—this contrast will help students 
+understand them more clearly and easily. 
+Show: Explain both the functions using level 2. 
+ 
+Make the point: Highlight the key differences between the two functions to help students 
+clearly understand how and when to use each.
+
+Page 3
+🧠 Topic 2 
+⏱️Duration: 15 Mins 
+Activity: Read joystick position on the serial monitor. 
+Do: First, we use analogRead() to check how far the joystick is moved in the X and Y 
+directions. Then, we use digitalRead() to see if the joystick button is pressed. After 
+connecting the joystick to the Arduino UNO, we open the Serial Monitor to see the values 
+changing. Try moving the joystick to the right — you'll see the change in Joystick’s position 
+values on the screen. 
+Show: Demonstrate steps at level 3, 4, 5 and 6. 
+Make the point: Reading joystick values using analogRead() and digitalRead() helps us 
+track movement direction and button press, which we can view live on the Serial Monitor to 
+test and control devices like a PT camera. 
+📦 Wrap up 
+⏱️Duration: 5 Mins 
+Question of the Day: Play Guess the Code! 
+Display three lines of Arduino code with one missing value, such as: 
+analogRead( 
+); 
+digitalRead( 
+); 
+ 
+pinMode(   , INPUT_PULLUP); 
+ 
+Ask students to fill in the blanks based on what they learned (e.g., VRX_PIN, 
+BUTTON_PIN). 
+Quickly review what each function does and celebrate correct guesses. 
+ 
+Recap: Say: “Today, you learned how a joystick works and how to read its X, Y positions 
+and switch status using Arduino. You also observed these values on the Serial Monitor and 
+understood how this data can help control devices like a PT camera.”

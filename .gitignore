@@ -1,0 +1,31 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Database and uploaded files
+backend/app/app/vectorstore/
+backend/app/app/uploads/
+
+# VS Code
+.vscode/
+
+venv/
+.venv/
+__pycache__/
+
+
+**/.env*
+
